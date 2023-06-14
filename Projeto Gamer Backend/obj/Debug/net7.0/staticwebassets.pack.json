@@ -213,6 +213,10 @@
       "PackagePath": "staticwebassets\\assets\\menu-points.png"
     },
     {
+      "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\assets\\pencil.svg",
+      "PackagePath": "staticwebassets\\assets\\pencil.svg"
+    },
+    {
       "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\assets\\phone-icon.png",
       "PackagePath": "staticwebassets\\assets\\phone-icon.png"
     },
@@ -239,6 +243,26 @@
     {
       "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\assets\\vector-user.svg",
       "PackagePath": "staticwebassets\\assets\\vector-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\css\\equipes.css",
+      "PackagePath": "staticwebassets\\css\\equipes.css"
+    },
+    {
+      "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\css\\header-footer.css",
+      "PackagePath": "staticwebassets\\css\\header-footer.css"
+    },
+    {
+      "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\css\\jogadores.css",
+      "PackagePath": "staticwebassets\\css\\jogadores.css"
+    },
+    {
+      "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
       "Id": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\css\\site.css",

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Projeto_Gamer</title>
     <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/header-footer.css">
 </head>
 
 <body>
@@ -51,8 +52,8 @@
                         <a asp-controller="Home" asp-action="Index">Início</a>
                         @if (ViewBag.UserName != null)
                         {
-                            <a asp-controller="Jogador" asp-action="Index">Equipes</a>
-                            <a asp-controller="Equipe" asp-action="Index">Jogadores</a>
+                            <a asp-controller="Equipe" asp-action="Index">Equipes</a>
+                            <a asp-controller="Jogador" asp-action="Index">Jogadores</a>
                             <a asp-controller="Login" asp-action="Logout">Logout</a>
                         }
 
