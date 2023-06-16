@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/P+AbLybF5ppW1HK0kScQ3SaTxJqrhgGkhZp29S69EI=",
+  "Hash": "vrMqlDTsedj/0Hqhp2ZI2GG6TmUo2bdiXQ+pswbBTGI=",
   "Source": "Projeto Gamer",
   "BasePath": "_content/Projeto Gamer",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Projeto Gamer.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\assets\\Banner_equipe.png",
+      "SourceId": "Projeto Gamer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\",
+      "BasePath": "_content/Projeto Gamer",
+      "RelativePath": "assets/Banner_equipe.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Banner_equipe.png"
     },
     {
       "Identity": "C:\\Users\\50866670890\\Desktop\\Projeto-Final-1sprint\\Projeto Gamer Backend\\wwwroot\\assets\\Banner_Login.png",

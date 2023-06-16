@@ -5,14 +5,14 @@
 }
 
 <link rel="stylesheet" href="~/css/equipes.css">
+<main>
+    @if (ViewBag.UserName == null)
+    {
+        <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+    }
+    else
+    {
 
-@if (ViewBag.UserName == null)
-{
-    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-}
-else
-{
-    <main>
 
         <section class="container-grid cadastro-equipes">
             <form class="frm-cad-equipe" method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
@@ -46,13 +46,16 @@ else
                             <td>@equipe.IdEquipe</td>
                             <td>@equipe.Nome</td>
                             <td>
-                                <img class="green-play" src="/img/Equipes/@equipe.Imagem" alt="imagem da equipe @equipe.Nome" width="50px">
+                                <img class="green-play" src="/img/Equipes/@equipe.Imagem" alt="imagem da equipe @equipe.Nome"
+                                    width="50px">
                             </td>
                             <td>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Equipe" asp-action="Excluir"
+                                    asp-route-id="@equipe.IdEquipe">
                                     <img class="yellow-trash" src="~/assets/trash.png" alt="">
                                 </a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Equipe" asp-action="Editar"
+                                    asp-route-id="@equipe.IdEquipe">
                                     <img class="yellow-pencil" src="~/assets/pencil.svg" alt="">
                                 </a>
                             </td>
@@ -61,5 +64,5 @@ else
                 </tbody>
             </table>
         </section>
-    </main>
-}
+    }
+</main>

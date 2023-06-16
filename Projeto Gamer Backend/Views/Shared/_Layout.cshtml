@@ -129,11 +129,15 @@
                 </div>
 
                 <ul class="menu-footer">
-                    <li class="menu-ftitem"><a href="#">Início</a></li>
-                    <li class="menu-ftitem"><a href="#">Jogadores</a></li>
-                    <li class="menu-ftitem"><a href="#">Notícias</a></li>
-                    <li class="menu-ftitem"><a href="#">Login</a></li>
-                    <li class="menu-ftitem" id="link-equipe"><a href="#">Equipes</a></li>
+                    <a class="menu-ftitem" asp-controller="Home" asp-action="Index">Início</a>
+                    @if (ViewBag.UserName != null)
+                    {
+                        <a class="menu-ftitem" asp-controller="Equipe" asp-action="Index">Equipes</a>
+                        <a class="menu-ftitem" asp-controller="Jogador" asp-action="Index">Jogadores</a>
+                        <a class="menu-ftitem" asp-controller="Login" asp-action="Logout">Logout</a>
+                    }
+
+                    <a class="menu-ftitem" href="~/#noticias">Notícias</a>
                 </ul>
             </div>
 

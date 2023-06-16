@@ -1,9 +1,7 @@
 /* Mobile First */
-
 /* Main */
-
 main {
-    margin-top: 60px;
+    margin-top: 0px;
     height: 1403px;
     background-image: url(../assets/fundo-jogadores-mobile.png);
     background-size: contain;
@@ -29,7 +27,7 @@ main .cadastro-equipes::before {
     position: absolute;
     z-index: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-color: rgba(217, 217, 217, .01);
     backdrop-filter: blur(1px);
 }
@@ -133,7 +131,9 @@ main .cadastro-equipes .frm-cad-equipe .foto::before {
     border-radius: 8px;
 }
 
-
+main .cadastro-equipes .frm-cad-equipe .campo-entrada .valor-equipe{
+    color: black;
+}
 
 /* button */
 main .cadastro-equipes .frm-cad-equipe button {
@@ -221,13 +221,14 @@ main .cadastro-equipes table td {
 main .cadastro-equipes table td:last-of-type {
     border: none;
 }
-
-main .cadastro-equipes table td img.green-play {
-    width: 25px;
+main .cadastro-equipes table td img.imagem-equipe {
+    width: 40px;
 }
-
 main .cadastro-equipes table td img.yellow-trash {
     width: 15px;
+}
+main .cadastro-equipes table td img.yellow-pencil {
+    width: 25px;
 }
 
 
